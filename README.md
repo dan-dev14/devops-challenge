@@ -14,3 +14,9 @@ b. number of responses slower than 100ms, 500ms and 1s respectively
 write a script that:
 a. makes a hundred requests (1 per second)
 b. shows the average and maximum response times
+
+- generate_apache.py
+Used for testing and generating sample log.
+
+- apache.log
+Example log used to validate scripts.
