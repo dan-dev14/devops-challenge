@@ -29,7 +29,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     count = 0
     results = [] #Could use a dict here if we were interested in preserving the timings of the requests
-    while count > 100: #Loop round for the 100 requests
+    while count < 100: #Loop round for the 100 requests
         count += 1
         print("Sending request {} out of 100".format(count))
         rtt = send_request(args.server)
